@@ -49,7 +49,7 @@ nav ul {
 
 /* nav li トップメニュー 項目 書式 */
 li {
-  color: #54410c;
+  color: red;
 }
 
 /* header nav li.active トップメニューのリンクが設定されている項目の書式 */
