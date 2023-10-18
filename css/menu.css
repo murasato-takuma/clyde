@@ -1,0 +1,62 @@
+@import url(common.css);
+
+/* セクションの配置 */
+main article div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* セクションの中の書式 */
+main section {
+  border: 2px solid #4a4a4a;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  margin-bottom: 67px;
+  color: #54410c;
+  flex-basis: 540px;
+}
+
+/* セクションのタイトルの書式 */
+div section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 22px;
+  padding-bottom: 48px;
+  background-image: url(../img/menu.img/line.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+/* セクションの説明の書式 */
+.tips {
+  padding-top: 22px;
+  line-height: 28px;
+  padding-bottom: 22px;
+}
+
+/* 値段の書式 */
+.price {
+  font-size: 24px;
+  padding-bottom: 19px;
+}
+
+/* 詳細ページリンクボタンの書式 */
+.detail {
+  background-color: #6b5311;
+  color: #fffdf8;
+  display: block;
+  max-width: 350px;
+  line-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/menu.img/right.svg);
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+
+/* レスポンシブ */
+@media (max-width: 991px) {
+  main article div {
+    display: block;
+  }
+}

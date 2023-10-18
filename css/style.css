@@ -1,0 +1,170 @@
+/* body 全体のデフォルト書式 */
+body {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fffdf8;
+  font-size: 18px;
+}
+
+/* a リンクの書式 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* a:hover リンクのホバー設定 */
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+/* header h1 タイトルロゴ 書式 */
+header h1 {
+  padding-top: 23px;
+  padding-bottom: 29px;
+}
+
+/* nav トップメニュー 書式 */
+header nav {
+  padding: 28px;
+  border-top: 2px solid #6a6a6a;
+  border-bottom: 2px solid #6a6a6a;
+}
+/* nav li トップメニュー 項目 書式 */
+header li {
+  display: inline;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: #54410c;
+}
+
+/* header nav li.active トップメニューのリンクが設定されている項目の書式 */
+header nav li.active {
+  color: #000;
+  font-weight: bold;
+}
+
+/* .main_visual メインビジュアルの書式 */
+p.main_visual {
+  padding-top: 36px;
+}
+
+/* main の幅 */
+main {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* .lounge_and_drinkery の配置 */
+.lounge_and_drinkery {
+  padding-top: 67px;
+  border-bottom: 3px #000 solid;
+  padding-bottom: 53px;
+}
+/* .lounge_and_drinkery ul 書式 */
+.lounge_and_drinkery ul {
+  padding-bottom: 67px;
+}
+/* .lounge_and_drinkeryの画像の配置 */
+.lounge_and_drinkery li {
+  display: inline;
+}
+
+/* main h2 LOUNGE＆DRINKERと本日のイベントの書式 */
+main h2 {
+  /* 配置 */
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  /* フォント */
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d1502;
+}
+
+/* .lounge_and_drinkery p の書体 */
+.lounge_and_drinkery p {
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: left;
+  padding-top: 50px;
+}
+
+/* main section.todays-event 本日のイベントの書式 */
+.todays_event {
+  padding-top: 67px;
+  padding-bottom: 53px;
+  border-bottom: 3px solid #000;
+}
+
+/* .本日のイベントの画像配置 */
+.todays_event li {
+  padding-top: 50px;
+}
+
+/* 予約はこちらの配置 */
+main aside p {
+  padding-top: 77px;
+  padding-bottom: 55px;
+}
+/* footerの書式 */
+footer {
+  background-color: #322707;
+  color: #fffdf8;
+  padding-top: 42px;
+}
+
+/* 営業時間の背景書式 */
+footer section {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5f4e1c;
+  padding: 11px;
+}
+
+/* 営業時間の書式 */
+footer section h2 {
+  color: #1d1502;
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+/* 6~23時の書体 */
+footer section p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d1502;
+}
+
+/* footerのレイアウト */
+footer div p {
+  padding-top: 30px;
+}
+
+/* addressの書式 */
+footer address {
+  padding: 30px;
+}
+
+/* コピーライトの書体 */
+footer small {
+  background-color: #000;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+/* コピーライトの背景 */
+p.copy_rights {
+  background-color: #000;
+  padding: 18px;
+}

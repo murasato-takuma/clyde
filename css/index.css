@@ -1,0 +1,68 @@
+@import url(common.css);
+
+/* .main_visual メインビジュアルの書式 */
+p.main_visual {
+  padding-top: 36px;
+}
+
+/* .lounge_and_drinkery の配置 */
+.lounge_and_drinkery {
+  padding-top: 67px;
+  border-bottom: 3px #000 solid;
+  padding-bottom: 53px;
+}
+/* .lounge_and_drinkery ul 書式 */
+.lounge_and_drinkery ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding-bottom: 67px;
+}
+/* .lounge_and_drinkeryの画像の配置 */
+/* .lounge_and_drinkery li {} */
+
+/* main h2 LOUNGE＆DRINKERYと本日のイベントの書式 */
+main h2 {
+  /* 配置 */
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  /* フォント */
+  font-family: "Kaisei Tokumin", serif, "Pacifico", cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d1502;
+}
+
+/* .lounge_and_drinkery p の書体 */
+.lounge_and_drinkery p {
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: left;
+  padding-top: 50px;
+}
+
+/* main section.todays-event 本日のイベントの書式 */
+.todays_event {
+  padding-top: 67px;
+  padding-bottom: 53px;
+  border-bottom: 3px solid #000;
+}
+
+/* .本日のイベントの画像配置 */
+.todays_event li {
+  padding-top: 50px;
+}
+
+/* レスポンシブ */
+@media (max-width: 575px) {
+  p.main_visual img {
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+  }
+}
